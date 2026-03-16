@@ -1,47 +1,50 @@
 # Data Analytics Portfolio
 ### Sam | NYC-Based Data Analyst
 
-Welcome to my data analytics portfolio. This repository contains projects 
-and exercises completed as part of a structured data analytics curriculum 
-covering SQL, Python, and machine learning.
+Welcome to my data analytics portfolio. This repository contains machine 
+learning and data analytics projects built on real world domain expertise 
+in NYC construction and management consulting, plus structured exercises 
+from a Python and SQL analytics curriculum.
 
 ---
 
-## Featured Project
+## Projects
 
 ### NYC Construction Cost Estimation Model
 **[View Project](projects/nyc_construction_cost_estimation.ipynb)**
 
-A machine learning model that predicts unit construction costs per gross 
-square foot (GSF) for the 10 major trades on NYC construction projects, 
-enabling data-driven bid preparation for general contractors.
-
-**Business Problem**
-General contractors in NYC rely heavily on individual estimator experience 
-for bid preparation — a process prone to systematic errors including labor 
-type misclassification and trade-specific underestimates. This model 
-provides an objective, data-driven baseline for cost estimation.
-
-**Technical Approach**
-- Built and calibrated a synthetic dataset of 300 historical bids across 
-  10 major trades, mirroring real NYC construction market rates
-- Engineered features including trade type, labor type, project type, 
-  GSF, and bid stage
-- Trained and compared Linear Regression and Random Forest models
-- Selected Linear Regression (R² = 0.9178, RMSE = 5.28/GSF) based on 
-  superior performance at NYC construction project scale
-- Built a configurable estimate_project() function that returns a full 
-  cost breakdown by trade plus total project cost
-
-**Key Finding**
-Labor type is a significant cost driver in NYC construction — the model 
-predicts a 13-15% cost premium for Union vs Open Shop labor across all 
-project types, consistent with NYC prevailing wage requirements. When 
-validated against an anonymized real NYC renovation project, labor type 
+Predicts unit construction costs per GSF for the 10 major trades on NYC 
+construction projects using Linear Regression (R² = 0.9178). Built a 
+configurable estimation function returning full cost breakdowns by trade. 
+Validated against an anonymized real NYC renovation project — labor type 
 misclassification was identified as a primary source of budget variance.
 
-**Tools Used**
-Python, Pandas, scikit-learn, Matplotlib, Seaborn, Google Colab, GitHub
+**Tools:** Python, Pandas, scikit-learn, Matplotlib, Seaborn
+
+---
+
+### Consulting Project Risk Model
+**[View Project](projects/consulting_project_risk_model.ipynb)**
+
+Classifies consulting projects as at-risk before work begins using 
+structured project characteristics and NLP analysis of contract text. 
+Random Forest achieved 77% accuracy on structured features. Partner 
+tenure was identified as the strongest predictor of project risk — 
+nearly 3x more important than contract value — validating a U-shaped 
+risk curve where junior and veteran partners carry the highest risk.
+
+**Tools:** Python, Pandas, scikit-learn, TF-IDF, Matplotlib, Seaborn
+
+---
+
+## Skills
+- **Languages:** Python, SQL
+- **Libraries:** Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, 
+  TF-IDF Vectorizer
+- **Tools:** VS Code, Google Colab, GitHub, DB Browser for SQLite
+- **Techniques:** Regression modeling, classification modeling, 
+  NLP text analysis, feature engineering, data visualization, 
+  exploratory analysis
 
 ---
 
@@ -65,19 +68,10 @@ Structured weekly exercises covering the full data analytics stack:
 
 ---
 
-## Skills
-- **Languages:** Python, SQL
-- **Libraries:** Pandas, NumPy, scikit-learn, Matplotlib, Seaborn
-- **Tools:** VS Code, Google Colab, GitHub, DB Browser for SQLite
-- **Techniques:** Data cleaning, exploratory analysis, feature engineering, 
-  regression modeling, classification modeling, data visualization
-
----
-
 ## In Progress
-- Additional portfolio projects in construction and real estate analytics
 - Machine learning fundamentals
 - Advanced feature engineering
+- Additional portfolio projects
 
 ---
 *This portfolio is actively maintained and updated as new projects are completed.*
