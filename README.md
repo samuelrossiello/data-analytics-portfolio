@@ -2,13 +2,29 @@
 ### Sam | NYC-Based Data Analyst
 
 Welcome to my data analytics portfolio. This repository contains machine 
-learning and data analytics projects built on real world domain expertise 
-in NYC construction and management consulting, plus structured exercises 
-from a Python and SQL analytics curriculum.
+learning, data analytics, and optimization projects built on real world 
+domain expertise in NYC construction and management consulting, plus 
+structured exercises from a Python and SQL analytics curriculum.
 
 ---
 
 ## Projects
+
+### Construction Bid Optimizer
+**[View Project](projects/construction_bid_optimizer.ipynb)**
+
+Linear programming model that identifies the optimal combination of 
+subcontractor awards across 10 major trades — minimizing total buyout 
+cost while meeting fixed MBE and WBE compliance requirements. Compared 
+three strategies: greedy lowest bid (non-compliant), greedy lowest MWBE 
+(compliant but inefficient), and optimized PuLP solution (compliant and 
+optimal). The optimizer saved 2,358,596 vs the greedy MWBE approach on 
+a single 500,000 GSF project by concentrating MWBE spend strategically 
+rather than sequentially.
+
+**Tools:** Python, Pandas, PuLP, Matplotlib, Google Colab, GitHub
+
+---
 
 ### NYC Construction Cost Estimation Model
 **[View Project](projects/nyc_construction_cost_estimation.ipynb)**
@@ -40,11 +56,11 @@ risk curve where junior and veteran partners carry the highest risk.
 ## Skills
 - **Languages:** Python, SQL
 - **Libraries:** Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, 
-  TF-IDF Vectorizer
+  TF-IDF Vectorizer, PuLP
 - **Tools:** VS Code, Google Colab, GitHub, DB Browser for SQLite
 - **Techniques:** Regression modeling, classification modeling, 
-  NLP text analysis, feature engineering, data visualization, 
-  exploratory analysis
+  NLP text analysis, linear programming optimization, feature 
+  engineering, data visualization, exploratory analysis
 
 ---
 
@@ -71,7 +87,7 @@ Structured weekly exercises covering the full data analytics stack:
 ## In Progress
 - Machine learning fundamentals
 - Advanced feature engineering
-- Additional portfolio projects
+- Streamlit interactive dashboard for Construction Bid Optimizer
 
 ---
 *This portfolio is actively maintained and updated as new projects are completed.*
