@@ -4,7 +4,7 @@
 Welcome to my data analytics portfolio. This repository contains machine 
 learning, data analytics, and optimization projects built on real world 
 domain expertise in NYC construction and management consulting, plus 
-structured exercises from a Python and SQL analytics curriculum.
+structured exercises from a Python and machine learning curriculum.
 
 ---
 
