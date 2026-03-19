@@ -57,7 +57,7 @@ risk curve where junior and veteran partners carry the highest risk.
 - **Languages:** Python, SQL
 - **Libraries:** Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, 
   TF-IDF Vectorizer, PuLP
-- **Tools:** VS Code, Google Colab, GitHub, DB Browser for SQLite
+- **Tools:** VS Code, Google Colab, GitHub, SQLite
 - **Techniques:** Regression modeling, classification modeling, 
   NLP text analysis, linear programming optimization, feature 
   engineering, data visualization, exploratory analysis
