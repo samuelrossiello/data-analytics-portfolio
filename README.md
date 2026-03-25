@@ -8,6 +8,30 @@ structured exercises from a Python and machine learning curriculum.
 
 ---
 
+## Interactive Apps
+
+### Construction Bid Optimizer — Interactive Tool
+**[View App](apps/construction_bid_optimizer_app.ipynb)**
+
+Interactive Colab notebook version of the Construction Bid Optimizer — 
+allows estimators to adjust project parameters, lock in preferred 
+subcontractors based on relationship history, and instantly see the 
+optimized award recommendations and cost impact of each preference 
+decision.
+
+**To run:** Open in Google Colab and run all cells. The interactive 
+widgets require Colab — GitHub preview is not supported for this notebook.
+
+**Features:**
+- Adjustable GSF, MBE% and WBE% parameters
+- Preferred subcontractor selection per trade
+- Pure optimal vs greedy vs your selection comparison
+- Three tier preference warning system
+- Dynamic visualization charts
+- Value of optimization metrics
+
+---
+
 ## Projects
 
 ### Construction Bid Optimizer
@@ -87,7 +111,7 @@ Structured weekly exercises covering the full data analytics stack:
 ## In Progress
 - Machine learning fundamentals
 - Advanced feature engineering
-- Streamlit interactive dashboard for Construction Bid Optimizer
+- Streamlit deployment of Construction Bid Optimizer
 
 ---
 *This portfolio is actively maintained and updated as new projects are completed.*
