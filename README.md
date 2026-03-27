@@ -21,7 +21,7 @@ and the cost impact of each preference decision.
 **Live app works on any device — no installation required.**
 
 **Features:**
-- Adjustable GSF, MBE% and WCE% parameters
+- Adjustable GSF, MBE% and WBE% parameters
 - Preferred subcontractor selection per trade
 - Pure optimal vs greedy vs your selection comparison
 - Three tier preference warning system (Good/Caution/Warning)
